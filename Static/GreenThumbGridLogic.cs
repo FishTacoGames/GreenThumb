@@ -22,7 +22,7 @@ namespace FishTacoGames
         private static readonly Queue<CallData> callQueue = new(MaxQueueSize);
         /// <summary>
         /// you will need to pass the current terrains size and positon to get the active cells
-        /// you can quickly do this by callin the GetCurrentTerrain Method in the Manager instance or getting the x and y in the global terrain map
+        /// you can quickly do this by calling the GetCurrentTerrain Method in the Manager instance or getting the x and y in the global terrain map
         /// </summary>
         /// <param name="hitPosition"></param>
         /// <param name="terrainSize"></param>
